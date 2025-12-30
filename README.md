@@ -17,8 +17,8 @@ A comprehensive web-based platform for designing concrete mixes according to int
 - **Automatic Calculations:** Instant calculation of quantities and ratios.
 
 ## 🛠️ Developed By | تم التطوير بواسطة
-**Eng. Muhammad EL-kasaby**
+**Eng. Mohamed EL-kasaby**
 
 ## 🚀 Live Demo | معاينة المنصة
-[Click here to view the platform](https://[اسم-حسابك].github.io/concrete-mix-platform/)
+[Click here to view the platform](https://mohamed742406.github.io/concrete-mix-platform/)
  منصة تصميم الخلطات الخرسانية
