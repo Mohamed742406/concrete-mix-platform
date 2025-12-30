@@ -426,7 +426,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label>المحتوى الرطوبي للركام الخشن (%)</label>
+                        <label>محتوي الرطوبة للركام الخشن (%)</label>
                         <input type="number" id="coarseMoisture" value="3" min="0" max="10" step="0.5">
                     </div>
                 </div>
@@ -452,7 +452,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label>المحتوى الرطوبي للركام الناعم (%)</label>
+                        <label>محتوي الرطوبة للركام الناعم (%)</label>
                         <input type="number" id="fineMoisture" value="7" min="0" max="15" step="0.5">
                     </div>
                 </div>
@@ -465,7 +465,7 @@
                         <label>نوع التعرض</label>
                         <select id="exposure">
                             <option value="none" selected>عادي - لا يتعرض لظروف قاسية</option>
-                            <option value="freeze">دورات انجماد وذوبان</option>
+                            <option value="freeze">دورات التجمد وذوبان</option>
                             <option value="saltwater">مياه البحر والأملاح</option>
                             <option value="sulfate">الكبريتات</option>
                         </select>
@@ -622,7 +622,7 @@
                 </div>
 
                 <div class="table-section">
-                    <h3>علاقة نسبة ماء/إسمنت بمقاومة الانضغاط</h3>
+                    <h3>علاقة نسبة ماء/إسمنت بمقاومة الضغط</h3>
                     <table>
                         <thead>
                             <tr>
@@ -1106,7 +1106,7 @@
             let stepsHTML = `<div class="info">خطوات حساب ACI 211.1 المتبعة</div>
                 <div style="margin-top: 15px; padding: 15px; background: #f9f9f9; border-right: 4px solid var(--primary); border-radius: 6px;">
                     <h4>البيانات المدخلة:</h4>
-                    <p>• مقاومة الانضغاط المطلوبة: ${r.fc} MPa</p>
+                    <p>• مقاومة الضغط المطلوبة: ${r.fc} MPa</p>
                     <p>• الهبوط: ${r.slump} سم</p>
                     <p>• أقصى حجم للركام: ${r.maxSize} mm</p>
                     <p>• معامل النعومة: ${r.fineness}</p>
@@ -1266,7 +1266,7 @@
             let stepsHTML = `<div class="info">خطوات حساب BS EN 206 المتبعة</div>
                 <div style="margin-top: 15px; padding: 15px; background: #f9f9f9; border-right: 4px solid var(--primary); border-radius: 6px;">
                     <h4>البيانات المدخلة:</h4>
-                    <p>• مقاومة الانضغاط المطلوبة: ${r.fc} MPa</p>
+                    <p>• مقاومة الضغط المطلوبة: ${r.fc} MPa</p>
                     <p>• الهبوط: ${r.slump} سم (${consistencyAr[r.consistency]})</p>
                     <p>• أقصى حجم للركام: ${r.maxSize} mm</p>
                 </div>`;
